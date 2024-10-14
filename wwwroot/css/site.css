@@ -19,5 +19,28 @@ html {
 
 body {
   margin-bottom: 60px;
-  background: linear-gradient(to bottom, grey, white);
+  background: linear-gradient(to bottom, rgb(128, 0, 0,.7), lightgrey);
+
 }
+h2{
+  color: rgb(82, 0, 0);
+}
+h3{
+  color: rgb(82, 0, 0);
+}
+h4{
+  color:rgb(128,0,0);
+}
+h6{
+  color: rgb(82, 0, 0);
+}
+/*
+#indexRowOne h6{
+  background: linear-gradient(to bottom, white, grey);
+  background-clip: text;
+  color: transparent;
+}
+#indexRowTwo{
+  /*color: transparent;
+}
+*/
