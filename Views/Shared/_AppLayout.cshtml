@@ -61,7 +61,7 @@ padding: 0px;
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
                     <div id="mainLogo">
-                        <h6>TECHIESpirals</h6>
+                        <h6 style="color: black;">TECHIESpirals</h6>
                         <p id="logoST"><span>digital</span><span>solutions</span></p>
                     </div>
                 </a>
@@ -81,6 +81,17 @@ padding: 0px;
                     </div>
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
+                            <a class="btn btn-outline-primary" style="background: linear-gradient(to bottom, blue, lightblue, blue); margin-left: 5px; margin-right: 5px; border-radius:0% 15px; width: 100px; color: blue;" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-primary" style="background: linear-gradient(to bottom, blue, lightblue, blue); margin-left: 5px; margin-right: 5px; border-radius:0% 15px; width: 100px; color: blue;" asp-area="" asp-controller="Home" asp-action="About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-primary" style="background: linear-gradient(to bottom, blue, lightblue, blue); margin-left: 5px; margin-right: 5px; border-radius:0% 15px; width: 100px; color: blue;" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                        </li>
+                    </ul>
+                    @* <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
@@ -89,7 +100,7 @@ padding: 0px;
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
                         </li>
-                    </ul>
+                    </ul> *@
                     <!--<partial name="_LoginPartial" />-->
                 </div>
             </div>
