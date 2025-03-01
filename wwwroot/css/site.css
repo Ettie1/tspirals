@@ -18,8 +18,10 @@ html {
 }
 
 body {
+  height:650px;
   margin-bottom: 60px;
-  background: linear-gradient(to bottom, rgb(128, 0, 0,.7), lightgrey);
+  /* background: linear-gradient(to bottom, rgb(128, 0, 0,.7), lightgrey); */
+  background: linear-gradient(to bottom, blue, lightgrey);
 
 }
 h2{
